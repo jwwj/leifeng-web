@@ -1,0 +1,266 @@
+	
+           
+        
+		   body{
+		   	    background-color: #f1f1f1;
+		   	    position: relative;
+		   }
+           body .header{
+                 width:100%;
+                 height:80px;
+                 background-color: #f1f1f1; 
+           }
+           body .title1{
+           	     width:100%;
+           	     height:20px;
+                 position:relative;
+           }
+           body .hrfont{
+           	     position: absolute;
+           	     left:1054px;
+           	     top:-13px;
+           	     font-size: 5px;
+           	     font-family: "Microsoft Yahei";
+           	     
+           }
+            body .hlfont{
+           	     position: absolute;
+           	     left:150px;
+           	     top:-13px;
+           	     font-size: 5px;
+           	     font-family: "Microsoft Yahei";
+           }
+           body .title2{
+           	     width:100%;
+           	     height:55px;
+           	     background-color: #ffffff;
+           	     position:relative;
+           }
+           body .leifeng{
+                 position:absolute;
+                 left:148px;
+                 top:2px;
+           }
+           body .gongsi{
+           	     position:absolute;
+           	     left:72px;
+           	     top:4.5px;
+           	     width:400px;
+           }
+           body .leifengkeji{
+           	     position: absolute;
+           	     left:158px;
+           	     top:6px;
+           	     font-size: 20px;
+           	     font-family: "Microsoft Yahei";
+           }
+           body .zhongbao{
+           	     position: absolute;
+           	     left:158px;
+           	     top:32px;
+           	     font-size: 5px;
+           	     font-family: "Microsoft Yahei";
+           }
+           
+           
+
+
+           body .body .bodycontent{
+            	 width:100%;
+            	 height:590px;
+            	 background-color: #ffffff;
+            	 position:absolute;
+             	 top:20px;
+           	     
+           	     
+               
+           }
+           body .body .bodycontent .contentimg{
+           	     position:absolute;
+             	 top:275px;
+             	 left:180px;
+           }
+           
+           body .footer .footend{
+             width:1322px;
+           	 height:46.5px;
+           	 background-color: #3b3d45;
+           	 position: absolute;
+           	 top:592px;
+           	 left:-672px;
+              }
+           body .footer .footend .footendcontent{
+             position: absolute;
+             top:13px;
+             left: 35%;
+             color:#ffffff;
+             font-size: 12px;
+             font-family: "Microsoft Yahei";
+             }
+            body  .body .leftcontent{
+            	height:575px;
+            	width:50%;
+            	
+
+             }
+             body  .body .rightcontent{
+            	height:575px;
+            	width:50%;
+            	
+            	position:absolute;
+            	top:0px;
+            	left:50%;
+
+             }
+             body .body .rightcontent .login{
+             	width:500px;
+             	height:580px;
+             	border:1px solid #f1f1f1;
+             	position: absolute;
+             	left:90px;
+             	top:4px;
+             	background-color: #f1f1f1;
+             	box-shadow: 1px 1px 1px 1px #cccccc;
+
+             }
+             
+a{
+	text-decoration:none;
+	outline: none;
+	color:#000;
+	}
+	.reg-form{
+		position: absolute;
+		top:-30px;
+	}
+.reg-rcon{
+	
+	background:#f1f1f1;
+	margin: 126px auto;
+	width: 381px;
+	padding: 8px;
+	border-radius: 5px;
+	height:230px;
+	position: absolute;
+	top: 0px;
+	left:60px;
+	
+	}
+.reg-rcon .tab{
+	height:35px;
+    padding-top: 0px;
+    position: absolute;
+	top:-100px;
+	}
+.reg-rcon .tab a{
+	width:127px;
+	height:40px;
+	position:relative;
+	text-align:center;
+	border-bottom:2px solid #d7d7d7;
+	display:block;
+	float:left;font-size:13px;
+	color:#d43824;;
+	font-weight:bold;
+	cursor:default}
+.reg-rcon .tab a span{
+	width:14px;
+	height:14px;
+	overflow:hidden;
+	display:inline-block;
+	position:relative;
+	top:2px;
+	top:-1px;
+	margin-right:4px;
+	font-weight:normal;
+	text-align:center;
+	line-height:14px;
+	color:#d43824;;
+	}
+.reg-rcon .tab a.current{
+	color:#d43824;;
+	border-bottom:2px solid #d43824;;
+	width:385px;
+	
+}
+/*.reg-rcon .reg-form{
+	padding-top: -20px;
+}*/
+.row i{
+	width:47px;
+	height:15px;
+	display:block;
+	float:left;
+}
+.reg-rcon .icon-user{
+	/*background: url(../img/user.png)no-repeat;*/
+	width: 64px;
+    height: 64px;
+    display: block;
+    float: left;
+	margin-left: 149px;
+    margin-top: 5px;
+}
+.row .ico-pwd{background-position:0 -159px;}
+.row .ico-account{background-position:0 -111px;}
+.row .ico-email{ background-position: 0 -303px;}
+ .row .ico-code{background-position:0 -303px;}
+ /*.row-code .send{
+ 	background: url(../img/send.jpg)no-repeat;
+ 	}*/
+ .row-code a{
+ 	width:114px;
+ 	height:48px;
+ 	text-align:center;
+ 	line-height: 48px;
+ 	color: #ffffff;
+ 	display: inline-block;
+ 	}
+.row input{
+	width:365px;
+	height:44px;
+	line-height:44px;
+	border:1px solid #bbb;
+	background:#fbfbfb;
+	padding-left:10px;
+	font-size:16px;
+	color:#d43824;;
+	font-family:"\5B8B\4F53";
+	margin-left:0;
+	}
+.row-code input{
+	/*width:190px;*/
+	margin-right:10px;
+	}
+.sub{margin-top:20px;}
+.sub a{
+	width:380px;
+	height:48px;
+	text-align:center;
+	line-height:48px;
+	color:#fff;
+	font-size:18px;
+	display:block;
+	background:url(4.jpg) no-repeat;
+	}
+	.tab clearfix{
+		position: absolute;
+		top:10px;
+	}
+	.newbutton{
+	width:382px;
+	height:50px;
+	background:#d43824;;
+	color:white;
+	font-size:18px;
+	}
+	
+             
+
+
+
+             
+             
+		
+	
+		

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.leifeng.servlet.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewOrder</servlet-name>
+    <servlet-class>com.leifeng.servlet.NewOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewTask</servlet-name>
+    <servlet-class>com.leifeng.servlet.NewTask</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Task</servlet-name>
+    <servlet-class>com.leifeng.servlet.Task</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyTaskSent</servlet-name>
+    <servlet-class>com.leifeng.servlet.MyTaskSent</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FinishOrder</servlet-name>
+    <servlet-class>com.leifeng.servlet.FinishOrder</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FinishOrderSC</servlet-name>
+    <servlet-class>com.leifeng.servlet.FinishOrderSC</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewOrderSC</servlet-name>
+    <servlet-class>com.leifeng.servlet.NewOrderSC</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NewTaskSC</servlet-name>
+    <servlet-class>com.leifeng.servlet.NewTaskSC</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageKd</servlet-name>
+    <servlet-class>com.leifeng.servlet.MessageKd</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageSc</servlet-name>
+    <servlet-class>com.leifeng.servlet.MessageSc</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MyTaskRecived</servlet-name>
+    <servlet-class>com.leifeng.servlet.MyTaskRecived</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>com.leifeng.servlet.Register</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/servlet/Login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewOrder</servlet-name>
+    <url-pattern>/servlet/NewOrder</url-pattern>
+  </servlet-mapping>
+   <servlet-mapping>
+    <servlet-name>NewTask</servlet-name>
+    <url-pattern>/servlet/NewTask</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Task</servlet-name>
+    <url-pattern>/servlet/Task</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyTaskSent</servlet-name>
+    <url-pattern>/servlet/MyTaskSent</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FinishOrder</servlet-name>
+    <url-pattern>/servlet/FinishOrder</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FinishOrderSC</servlet-name>
+    <url-pattern>/servlet/FinishOrderSC</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewOrderSC</servlet-name>
+    <url-pattern>/servlet/NewOrderSC</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NewTaskSC</servlet-name>
+    <url-pattern>/servlet/NewTaskSC</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageKd</servlet-name>
+    <url-pattern>/servlet/MessageKd</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageSc</servlet-name>
+    <url-pattern>/servlet/MessageSc</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MyTaskRecived</servlet-name>
+    <url-pattern>/servlet/MyTaskRecived</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/servlet/Register</url-pattern>
+  </servlet-mapping>
+
+</web-app>

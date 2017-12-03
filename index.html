@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>登录</title>
+		
+		<meta charset="UTF-8">
+
+		<link rel="stylesheet" type="text/css" href="css/login.css">
+		  
+	</head>
+	<body>
+		<div class="header">
+			<div class="title1">
+				    <p class="hlfont">今天，我们都是雷锋！</p>
+			</div>	
+			<!--<div class="title2">
+					<div class="leifeng"><img src="img/logo1.png" height=55 width=58></div>
+					<div class="gongsi">
+					    <div class="leifengkeji">我是雷锋</div>
+					    <div class="zhongbao">校园O2O众包平台</div>
+					</div>-->
+					
+					
+
+					
+			</div>
+		</div>
+
+		<div class="body">
+		
+			<div class="bodycontent">
+			
+			    <div class="leftcontent">
+			    	<script src="js/tagul.min.js" async defer></script>
+					<div style="width: 460px; height: 460px;margin-left:200px;margin-top:60px;" data-tagul-src="js/hwdd3hnzuu1g" data-tagul-show-attribution></div>
+                    
+			    </div>
+			    <div class="rightcontent">
+			    <div class="login">
+			    <div class="baikuang"></div>
+			         <!--<div class="denglushoulan">
+			         	<div class="denglu">登录</div>
+			         	<div class="zhuce">注册</div>
+			         </div>--><div class="reg-rcon">
+			<div class="tab clearfix" style="padding-top: 50px;">
+				<a id="cur1" class="current" onclick="onClick1()"><b style="font-size: 16px;">登 录</b><em></em></a>
+				<a id="cur2" class="current1" onclick="onClick2()"><b style="font-size: 16px;">注 册</b><em></em></a>
+			</div>
+			<div class="reg-form" id="tab1">
+				<form method="post" action="servlet/Login">
+					<p class="row">
+						<i class="ico-email"></i>
+						<input type="text" placeholder="手机号" id="useremail" name="num"/>
+						<span id="ue"></span>
+					</p>
+					<p class="row row-code clearfix">
+						<i class="ico-code"></i>
+					    <input type="password" placeholder="密码" id="code" name="psw"/>
+						<span id="cs"></span>
+					</p>
+					<p class="sub">
+						<input type="submit" value="登录" class="newbutton">
+					</p>
+				</form>
+			</div>
+			<div class="reg-form" id="tab2" style="display: none;">
+				<form method="post" action="register.html">
+					
+					<p class="sub">
+						<input type="submit" value="前往注册页面" class="newbutton" style="margin-top: 60px;">
+					</p>
+					</form>
+			</div>
+		</div>
+				
+			</div>
+		</div>
+
+		<div class="footer">
+			
+			<div class="footend"><div class="footendcontent">Copyright © 2016 雷锋科技有限公司版权所有 晋ICP备16008255号-1</div></div>
+		</div>
+		
+			
+			<script src="js/login.js"></script>
+		
+	</body>
+</html>
